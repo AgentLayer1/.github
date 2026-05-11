@@ -1,123 +1,194 @@
 <!--
-  GitHub Profile README for: AgentLayer
-  Place this file at: .github/profile/README.md
+  GitHub Profile README for: AgentLayer (org)
+  Place this file at: .github/profile/README.md  (in repo: AgentLayer1/.github)
+  Ordering mirrors agentlayer.one (home, platform, /dev)
 -->
 
-<h3 align="center">The layer agents run on</h3>
+<div align="center">
 
-<p align="center">
-  <samp>
-    AI agents • Tool use • RAG • Autonomy with oversight • Production-grade orchestration
-  </samp>
+<br/>
+
+# AgentLayer
+
+### The platform agents run on.
+
+<p>
+  <samp>Industries built for agents. Forward-deployed engineering.</samp>
 </p>
 
----
+<br/>
 
-## 🧭 About
+<a href="https://agentlayer.one"><img alt="agentlayer.one" src="https://img.shields.io/badge/website-agentlayer.one-0a0a0b?style=for-the-badge&labelColor=2a2a2a" /></a>
+<a href="https://studio.agentlayer.one"><img alt="studio (live)" src="https://img.shields.io/badge/studio-live%20demo-c6f432?style=for-the-badge&labelColor=2a2a2a" /></a>
+<a href="https://agentlayer.one/dev"><img alt="developers" src="https://img.shields.io/badge/developers-%40agentlayer%2F%2A-2a2a2a?style=for-the-badge&labelColor=2a2a2a" /></a>
+<a href="mailto:contact@agentlayer.one"><img alt="contact" src="https://img.shields.io/badge/contact-contact%40agentlayer.one-2a2a2a?style=for-the-badge&labelColor=2a2a2a" /></a>
 
-- Designing, building, and orchestrating **AI agent systems** for industries that were never built for the agentic world.
-- Operating layer for production agents: identity, policy, memory, observability, and the human-in-the-loop boundaries that real organizations require.
-- Headquartered in Cyberjaya, Malaysia — building from **MYS + SEA** for a global market, MDEC-aligned.
+<br/>
+<br/>
+
+</div>
 
 > Frontier models are already smart. The interesting problem is making agents safe, auditable, and useful inside organizations that have rules, regulators, and customers.
 
 ---
 
-## 🧠 Current Focus
+## 🧭 About
 
-- 🤖 **Agent runtime** — planning loops, tool routing, memory, retries, idempotency, audit trails.
-- 🛠️ **Tool use & function calling** — typed tool contracts, scoped permissions, deterministic adapters around messy APIs.
-- 📚 **Retrieval (RAG)** — hybrid retrieval, re-ranking, citation, and context engineering for long-running workflows.
-- 🧪 **Evals & guardrails** — golden sets, regression harnesses, and policy checks so we ship agents we trust in production, not just in demos.
-- 🧍 **Human-in-the-loop** — review queues, override surfaces, and trust boundaries baked into the runtime.
-- 🔭 **Observability** — every decision, tool call, and override captured in append-only logs you can replay.
+**AgentLayer** is a platform company building the enterprise AI Agent Orchestration Platform for industries that were never built for the agentic world. One product, one engagement model, one recurring monthly contract. Forward-deployed engineering is in the price.
 
 ---
 
-## ⚙️ Stack & Tools
+## ⚙️ The Engine
+
+The foundational layer. Six platform-core capabilities, productized as the engine every deployment runs on.
+
+| Capability | What it does |
+|---|---|
+| 🧠 **Orchestration** | Agent loop, tool dispatch, multi-step planning, lifecycle and state handoff |
+| 🔐 **Identity & Access** | Principal-vs-agent action delegation, KYA (Know-Your-Agent), credential scoping |
+| 📜 **Compliance & Audit** | Append-only action logs, attribution, replay, citations on retrieval, regulator-aware |
+| 🔁 **Workflow** | Stateful multi-step workflows, human-in-the-loop checkpoints, approval routing |
+| 🔭 **Observability** | Heartbeat health, task lineage, session state, agent-action traceability |
+| 🛡️ **Governance** | Policy framework, sovereignty controls, jurisdictional grounding |
+
+---
+
+## 🧩 Agentic Primitives
+
+The enabling layer. The **`@agentlayer/*`** packages are open-source primitives extracted from production. Each one is a focused pattern proven against real regulated-industry workloads, then absorbed into the engine that powers every AgentLayer deployment. Engineering teams can engage these primitives directly. No contract, no signup, just code.
+
+| Package | Pattern | Status |
+|---|---|---|
+| **`@agentlayer/orchestration`** | Agent loop, tool dispatch, planning, lifecycle, state handoff | 🛠️ In preparation |
+| **`@agentlayer/identity`** | Principal-vs-agent delegation, KYA, scoped credentials | 🛠️ In preparation |
+| **`@agentlayer/audit`** | Append-only logs, attribution, replay, citations | 🛠️ In preparation |
+| **`@agentlayer/observability`** | Heartbeat health, task lineage, session state, traceability | 🛠️ In preparation |
+| **`@agentlayer/agent-kevin`** | Canonical internal-team-agents reference. Knowledge pipeline, task orchestration, autonomous heartbeat, plugin dispatch | 🟢 In production. OSS Q3–Q4 2026 |
+| **`@agentlayer/studio`** | The operator surface. Activity feed, agents, tasks, timeline, audit, approvals | 🟡 Live prototype. Closed commercial |
+
+<div align="center"><sub>Closed patterns stay proprietary. Open primitives compose.</sub></div>
+
+---
+
+## 🚀 Deployment Patterns
+
+Every customer engagement deploys across one or more of these orthogonal surfaces. All supervised through **AgentLayer Studio**.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🧑‍💻 Internal-team agents
+Engineering, ops, finance, back-office teams operating at AI multiples. The `@agentlayer/agent-kevin` pattern, configured for the customer's organization.
+
+</td>
+<td width="33%" valign="top">
+
+### 📞 Customer-facing agents
+Support, onboarding, account management. Audit-trailed, human-in-the-loop on consequential decisions.
+
+</td>
+<td width="33%" valign="top">
+
+### 🤝 Agent-as-customer
+Autonomous agents transacting with the business. AgentPay is the leading instance, on a regulated payments rail.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏭 Industry Modules
+
+The application layer. Each module is a deployable, industry-tuned configuration on the same engine. Customer-facing brand, structurally the same platform.
+
+| Module | Brand | Industry | Status |
+|---|---|---|---|
+| `agent-fintech` | 💸 **AgentPay** | Payments, financial operations, fintech | 🟡 In progress |
+| `agent-gov` | 🏛️ **AgentGov** | Government, public-sector, RFP response | Engagement open |
+| `agent-edu` | 🎓 **AgentEdu** | Education ops, registrar, admissions, student services | Engagement open |
+| `agent-health` | 🩺 **AgentHealth** | Healthcare operations, clinician-augmenting | Engagement open |
+| `agent-legal` | ⚖️ **AgentLegal** | Legal work, citation-disciplined, lawyer-augmenting | Engagement open |
+| `agent-stay` | 🏨 **AgentStay** | Hospitality operations, operator-augmenting | Engagement open |
+
+---
+
+## 🎛️ AgentLayer Studio
+
+> **The operator surface of the platform. Live today.**
+> [studio.agentlayer.one](https://studio.agentlayer.one)
+
+One screen showing every agent in the organization. What they're doing, what's queued for human review, what's complete, how they hand work to one another. The control plane for non-engineers: operators, executives, ops leads, supervisors.
+
+<sub>Activity feed · Agents · Kanban + List · Timeline · Audit trail · Approvals queue · Notifications · Light and dark themes · Multi-tenant context · Real-time streaming</sub>
+
+Studio is shipped under the same Enterprise Platform Contract. The way the AWS Console is part of AWS.
+
+---
+
+## ⚒️ Stack
 
 ```ts
 type AgentLayerStack = {
-  models: [
-    "Claude (Anthropic)",
-    "GPT (OpenAI)",
-    "Gemini (Google)",
-    "Open-weight via vLLM / Ollama"
-  ];
-  agents: [
-    "Tool use & function calling",
-    "Multi-step planners & router agents",
-    "Memory: short-term, episodic, semantic",
-    "Sub-agent orchestration",
-    "Sandboxed code execution"
-  ];
-  retrieval: [
-    "Hybrid search (BM25 + dense)",
-    "Vector stores (pgvector)",
-    "Re-ranking & query rewriting",
-    "Citation-aware generation"
-  ];
-  evaluation: [
-    "Golden sets & regression harnesses",
-    "LLM-as-judge with rubrics",
-    "Trace-level diffing",
-    "Cost & latency budgets"
-  ];
-  languages: ["TypeScript", "Python"];
-  backend: ["Node.js", "Next.js (App Router)", "Postgres", "Redis", "Edge runtimes"];
-  frontend: ["React 19", "Next.js", "Tailwind CSS", "shadcn/ui"];
-  monorepo: ["pnpm workspaces", "Turborepo", "Shared UI + utils packages"];
+  models:     ['Claude (Anthropic) · default', 'GPT, Gemini · fallback'];
+  runtime:    ['Bun + TypeScript', 'LangGraph', 'Anthropic Agent SDK'];
+  agents:     ['Tool use', 'Planners + routers', 'Sub-agent orchestration', 'Memory: short/episodic/semantic'];
+  retrieval:  ['Hybrid (BM25 + dense)', 'pgvector', 're-ranking', 'citation-aware'];
+  evals:      ['Golden sets', 'LLM-as-judge', 'trace diffing', 'cost + latency budgets'];
+  data:       ['PostgreSQL', 'Redis'];
+  cloud:      ['AWS', 'Kubernetes', 'multi-region'];
+  frontend:   ['Next.js 16', 'React 19', 'Tailwind CSS 4', '@agentlayer/ui'];
+  payments:   ['x402', 'ERC-8183', 'ERC-8004', 'EIP-7702', 'Polygon · Arbitrum'];
 };
 ```
 
 ---
 
-## 🏗️ Verticals on the Platform
+## 🧱 Engineering Principles
 
-- **AgentPay** — payment infrastructure for AI agents; agents that transact with traceable approvals and human oversight.
-- **AgentHealth** — agent systems for healthcare operations and clinical administration.
-- **AgentLegal** — orchestrating legal work between AI capability and trusted execution.
-- **AgentGov** — agent systems for permits, citizen services, and inter-agency workflows.
-- **AgentEdu** — operations and support automation for education institutions.
-- **AgentDev** — engineering enablement and dev-loop agents for the agentic era.
-
----
-
-## 📡 Code Signals
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=basememara&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=basememara&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=basememara&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
-
----
-
-## 🌌 Philosophy
-
-- An agent is a contract between a model and the world: declared tools, declared scopes, declared limits.
-- Autonomy is earned, not assumed. Agents prove themselves through evals before they earn longer leashes.
-- In regulated domains, observability and auditability beat raw capability. Replayable traces are a feature.
-- Build for the failure modes you can name. Design the human review path before you ship the autonomous one.
-
-> Long-term view: AI agents operating inside enterprises and public-sector workflows — with the same accountability we expect from the humans they augment.
+- **Orchestration over framework.** Patterns that compose with the language and tooling teams already use. No lock-in.
+- **Audit trail by default.** Every agent action attributable, replayable, reviewable.
+- **Observability first.** Heartbeat health, task lineage, session state. All surfaced.
+- **Human-in-the-loop is a feature.** Designed-in approval points, not bolted-on guardrails. A core capability, not a fallback.
+- **Autonomy is earned, not assumed.** Agents prove themselves through evals before they earn longer leashes.
 
 ---
 
 ## 🛰️ Connect
 
-- 🔗 Website: https://agentlayer.one
-- 💬 Contact: contact@agentlayer.one
-- 🧬 Building: agent runtime, vertical agents, and the substrate they run on.
+<table>
+<tr>
+<td>🔗 <strong>Website</strong></td>
+<td><a href="https://agentlayer.one">agentlayer.one</a></td>
+</tr>
+<tr>
+<td>🎛️ <strong>Studio (live)</strong></td>
+<td><a href="https://studio.agentlayer.one">studio.agentlayer.one</a></td>
+</tr>
+<tr>
+<td>🛠️ <strong>Developers</strong></td>
+<td><a href="https://agentlayer.one/dev">agentlayer.one/dev</a></td>
+</tr>
+<tr>
+<td>🏢 <strong>Engage</strong></td>
+<td><a href="https://agentlayer.one/engage">agentlayer.one/engage</a></td>
+</tr>
+<tr>
+<td>💬 <strong>Contact</strong></td>
+<td><a href="mailto:contact@agentlayer.one">contact@agentlayer.one</a></td>
+</tr>
+</table>
 
 ---
 
-<p align="center">
-  <samp>Design agents. Govern agents. Trust agents.</samp>
-</p>
+<div align="center">
+
+<sub>Design agents. Govern agents. Trust agents.</sub>
+
+<br/>
+<br/>
+
+<sub>© AgentLayer</sub>
+
+</div>
