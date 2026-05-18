@@ -21,6 +21,7 @@
 <a href="https://agentlayer.one"><img alt="agentlayer.one" src="https://img.shields.io/badge/website-agentlayer.one-0a0a0b?style=for-the-badge&labelColor=2a2a2a" /></a>
 <a href="https://studio.agentlayer.one"><img alt="studio (live)" src="https://img.shields.io/badge/studio-live%20demo-c6f432?style=for-the-badge&labelColor=2a2a2a" /></a>
 <a href="https://agentlayer.one/dev"><img alt="developers" src="https://img.shields.io/badge/developers-%40agentlayer%2F%2A-2a2a2a?style=for-the-badge&labelColor=2a2a2a" /></a>
+<a href="https://github.com/AgentLayer1/agent-kevin"><img alt="agent-kevin" src="https://img.shields.io/badge/agent--kevin-open%20source-c6f432?style=for-the-badge&labelColor=2a2a2a" /></a>
 <a href="mailto:contact@agentlayer.one"><img alt="contact" src="https://img.shields.io/badge/contact-contact%40agentlayer.one-2a2a2a?style=for-the-badge&labelColor=2a2a2a" /></a>
 
 <br/>
@@ -63,7 +64,7 @@ The enabling layer. The **`@agentlayer/*`** packages are open-source primitives 
 | **`@agentlayer/identity`** | Principal-vs-agent delegation, KYA, scoped credentials | 🛠️ In preparation |
 | **`@agentlayer/audit`** | Append-only logs, attribution, replay, citations | 🛠️ In preparation |
 | **`@agentlayer/observability`** | Heartbeat health, task lineage, session state, traceability | 🛠️ In preparation |
-| **`@agentlayer/agent-kevin`** | Canonical internal-team-agents reference. Knowledge pipeline, task orchestration, autonomous heartbeat, plugin dispatch | 🟢 In production. OSS Q3–Q4 2026 |
+| **`@agentlayer/agent-kevin`** | Canonical internal-team-agents reference. Knowledge pipeline, task orchestration, autonomous heartbeat, plugin dispatch | 🟢 [Open source](https://github.com/AgentLayer1/agent-kevin) · In production |
 | **`@agentlayer/studio`** | The operator surface. Activity feed, agents, tasks, timeline, audit, approvals | 🟡 Live prototype. Closed commercial |
 
 <div align="center"><sub>Closed patterns stay proprietary. Open primitives compose.</sub></div>
@@ -79,7 +80,7 @@ Every customer engagement deploys across one or more of these orthogonal surface
 <td width="33%" valign="top">
 
 ### 🧑‍💻 Internal-team agents
-Engineering, ops, finance, back-office teams operating at AI multiples. The `@agentlayer/agent-kevin` pattern, configured for the customer's organization.
+Engineering, ops, finance, back-office teams operating at AI multiples. The [`@agentlayer/agent-kevin`](https://github.com/AgentLayer1/agent-kevin) pattern, configured for the customer's organization.
 
 </td>
 <td width="33%" valign="top">
